@@ -27,7 +27,7 @@ Deploy Your Own Bot ♥️ **Star 🌟 Fork 🍴 & Deploy**
 
 #DEPLOY via TelegramBot
 
-[Heroic](https://telegram.dog/XTZ_HerokuBot?start=eEZsaWNrei9Bbm9ueW1vdXNDaGF0Qm90IG1haW4)
+[Herocubot](https://telegram.dog/XTZ_HerokuBot?start=eEZsaWNrei9Bbm9ueW1vdXNDaGF0Qm90IG1haW4)
 
 
 # License
