@@ -25,6 +25,10 @@ Deploy Your Own Bot ♥️ **Star 🌟 Fork 🍴 & Deploy**
 ### Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/XFlickz/AnonymousChatBot)
 
+#DEPLOY via TelegramBot
+
+[Heroic](https://telegram.dog/XTZ_HerokuBot?start=eEZsaWNrei9Bbm9ueW1vdXNDaGF0Qm90IG1haW4)
+
 
 # License
 ```
