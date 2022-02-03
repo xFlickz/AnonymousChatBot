@@ -1,10 +1,10 @@
 {
   "name": "AnonymousChatBot",
   "description": "Simple Chat Bot In English.",
-  "repository": "https://github.com/Achu2234/AnonymousChatBot",
+  "repository": "https://github.com/XFlickz/AnonymousChatBot",
   "env": {
     "TOKEN": {
-      "description": "Get it on @botfather",
+      "description": "Get it on @botfather duh",
       "value": ""
     },
     "OWNER": {
