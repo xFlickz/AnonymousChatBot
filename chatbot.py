@@ -37,12 +37,12 @@ user_dict = {}
 def welcome(message):
     if check_user(user_id=message.from_user.id)[0]:
         mark = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True)
-        mark.add('🔍 Find a Partner')
-        mark.add('📰 Info Profile', '🗑 Delete Profile')
-        bot.send_message(message.from_user.id, f"*Welcome to Join {BOT_NAME}🙊*\n\n_Hope you get a friend or a mate_\n\n*NOTE:*\nJOIN\n[👥 ɢʀᴏᴜᴘ](t.me/{GROUP}) | [ᴄʜᴀɴɴᴇʟ 📣](t.me/{CHANNEL}) | [📱ᴏᴡɴᴇʀ](t.me/{OWNER})",parse_mode="markdown",disable_web_page_preview=True, reply_markup=mark)
+        mark.add('🔍 Mencari Pasangan...')
+        mark.add('📰 Info Profile', '🗑 Padam Profile')
+        bot.send_message(message.from_user.id, f"*Welcome to Join {BOT_NAME}🙊*\n\n_Hope you get a friend or a mate_\n\n*NOTE:*\nJOIN\n[👥 ɢʀᴏᴜᴘ](https://t.me/+hpCwlBcPJtI1ZDU9) | [ᴄʜᴀɴɴᴇʟ 📣](https://t.me/animeXflickz) | [📱ᴏᴡɴᴇʀ](https://t.me/XFlick)",parse_mode="markdown",disable_web_page_preview=True, reply_markup=mark)
         bot.register_next_step_handler(message, search_prof)
     else:
-        bot.send_message(message.from_user.id, "_👋Hello New Users, To Continue Filling The Following Bio data!_",parse_mode="markdown")
+        bot.send_message(message.from_user.id, "_👋Hi pengguna baru, Untuk Meneruskan Sila Isi Bio Data!_",parse_mode="markdown")
         bot.send_message(message.from_user.id, "➡️ *Your name :*", parse_mode="markdown")
         bot.register_next_step_handler(message, reg_name)
 
@@ -127,10 +127,10 @@ def reg_accept(message):
 
 
 def search_prof(message):  
-    if (message.text == u'🔍 Find a Partner') or (message.text == u'📰 Info Profile') or (
-            message.text == u'🗑 Delete Profile'):
-        if message.text == u'🔍 Find a Partner':
-            bot.send_message(message.from_user.id, '🚀 Looking for a partner for you . . .')
+    if (message.text == u'🔍 Mencari Partner') or (message.text == u'📰 Info Profile') or (
+            message.text == u'🗑 Padam Profile'):
+        if message.text == u'🔍 Mencari Partner':
+            bot.send_message(message.from_user.id, '🚀 Sedang Mencari Partner . . .')
             search_partner(message)
         elif message.text == u'📰 Info Profile':
             user_info = get_info(user_id=message.from_user.id)
@@ -191,8 +191,8 @@ def search_partner(message):
 def chat(message):  
     if message.text == "❌ Exit" or message.text == "/exit":
         mark1 = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True)
-        mark1.add('🔍 Find a Partner')
-        mark1.add('📰 Info Profile', '🗑 Delete Profile')
+        mark1.add('🔍 Mencari Partner')
+        mark1.add('📰 Info Profile', '🗑 Padam Profile')
         companion = check_companion(first_id=message.from_user.id)
         bot.send_message(message.from_user.id, "_You left the chat_",parse_mode="markdown", reply_markup=mark1)
         bot.send_message(companion, "_Your Spouse Left the Conversation_", parse_mode="markdown", reply_markup=mark1)
