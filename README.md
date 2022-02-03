@@ -3,7 +3,7 @@
 A Simple Telegram Bot To Chat Other in telegram by A bot
 
 # Features
-- Fully Remaked To English
+- Fully Remaked To Malay and English version
 - Supports Inline button
 - And More Features Coming Soon ...
 
@@ -13,13 +13,17 @@ A Simple Telegram Bot To Chat Other in telegram by A bot
 
 [Achu Biju](https://t.me/AmiFutami)
 
+[XFlickz](https://github.com/XFlickz)
+
+[XFlickbot](https://t.me/XFlick)
+
 
 
 # Deploy
 Deploy Your Own Bot ♥️ **Star 🌟 Fork 🍴 & Deploy**
 
 ### Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Achu2234/AnonymousChatBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/XFlickz/AnonymousChatBot)
 
 
 # License
